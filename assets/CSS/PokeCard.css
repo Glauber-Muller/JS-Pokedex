@@ -8,12 +8,10 @@ filter: brightness(1.2);
 font-size:medium;
 margin:25px 1px 6px 1px ;
 filter: brightness(0.95);
-width: 14rem;
+width: 24rem;
 height: auto;
 }
 .stat{
  color: rgb(255, 255, 255);
  font-weight: 400;
- width: 4.5rem;
- height: 2.5rem;
 }

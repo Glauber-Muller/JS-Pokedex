@@ -69,7 +69,7 @@
     }
 }
 
-@media screen and (min-width: 892px) {
+@media screen and (min-width: 892px ) {
     .Pokemons {
         grid-template-columns: repeat(4, 1fr);
         row-gap: 40px;
@@ -89,5 +89,10 @@
     }
     .Pokemon .number {
      margin-right: 2rem;
+    }
+}
+@media screen and (min-width: 1440px ){
+    .Pokemon .number{
+        margin-left:10rem;
     }
 }

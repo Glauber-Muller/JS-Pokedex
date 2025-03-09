@@ -52,9 +52,9 @@ body {
     color: black;
     text-align: right;
     opacity: 0.2;
+    font-size: 1rem;
     position: relative;
-    left: 90px;
-    font-size: .725rem;
+    left: 7rem;
 }
 
 .Pokemon .detail {
