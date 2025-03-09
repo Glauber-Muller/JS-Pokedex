@@ -46,6 +46,7 @@ body {
 .Pokemon .name {
     margin-bottom: -7px;
     text-transform: capitalize;
+    font-size: 1.5rem;
 }
 
 .Pokemon .number {
@@ -53,8 +54,7 @@ body {
     text-align: right;
     opacity: 0.2;
     font-size: 1rem;
-    position: relative;
-    left: 7rem;
+    align-self: end;
 }
 
 .Pokemon .detail {
