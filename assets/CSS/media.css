@@ -4,16 +4,29 @@
         flex-direction: column;
         overflow-x: hidden;
     }
-    
+
     .Pokemon .detail img {
         height: 100%;
 
     }
-    .Pokemon .detail{
+
+    .Pokemon .detail {
         margin-right: 2.6rem;
     }
-    .Pokemon .stats{
+
+    .Pokemon .stats {
         width: 14rem;
+        justify-content: center;
+        margin: 1rem 0.5rem 0.5rem 0.5rem;
+    }
+}
+
+@media screen and (min-width: 391px) {
+    .Pokemon {
+        max-width: 100%;
+        width: 80%;
+        padding: 0 auto;
+        margin: 0 auto;
     }
 }
 
@@ -28,52 +41,63 @@
         height: auto;
         width: 39vw;
     }
-    .Pokemon .detail{
+
+    .Pokemon .detail {
         margin-right: 2rem;
     }
+
     .Pokemon .detail img {
         height: 3.7rem;
     }
-    .Pokemon .stats{
-        width: 12.5rem;
+
+    .Pokemon .stats {
+        width: 11rem;
+        margin: 0 auto;
+        font-size: 1rem;
+        margin-top: 1rem;
     }
 }
 
 @media screen and (min-width: 692px) {
     .Pokemons {
         grid-template-columns: repeat(3, 1fr);
-       margin: 3vw;
+        margin: 0 auto;
     }
 
     .Pokemon {
         height: auto;
         width: 25vw;
         overflow-x: hidden;
+        
     }
-    .Pokemon .number{
+
+    .Pokemon .number {
         margin-right: 2rem;
     }
-    .Pokemon .detail{
+
+    .Pokemon .detail {
         position: relative;
         right: 0.2rem;
     }
+
     .Pokemon .detail img {
         height: 3.5rem;
         width: auto;
     }
-    .Pokemon .stats{
-        width:11rem;
+
+    .Pokemon .stats {
+        width: 11rem;
         margin: 0.5rem;
         position: relative;
-        
     }
-}
-
-@media screen and (min-width: 892px ) {
+    .Pokemon .number{
+        margin: 0 .5rem auto;
+    }
+    }
+@media screen and (min-width: 892px) {
     .Pokemons {
         grid-template-columns: repeat(4, 1fr);
-        row-gap: 40px;
-        margin: 1rem 0.5rem auto 0.5rem ;
+        margin: 0 auto;
     }
 
     .Pokemon {
@@ -87,12 +111,21 @@
         height: 6rem;
         width: 18vw;
     }
-    .Pokemon .number {
-     margin-right: 2rem;
+
+    .Pokemon .number{
+        margin: 0 .5rem auto;
     }
 }
-@media screen and (min-width: 1440px ){
+
+@media screen and (min-width: 1440px) {
+    .Pokemons {
+        margin: 0 auto;
+    }
+    .stats{
+        font-size: 5rem;
+        width: 20rem;
+        }   
     .Pokemon .number{
-        margin-left:10rem;
+        margin: 0 .5rem auto;
     }
 }

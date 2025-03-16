@@ -6,10 +6,13 @@ gap: 6px;
 font-weight: 900;
 filter: brightness(1.2);
 font-size:medium;
-margin:25px 1px 6px 1px ;
+margin:0 auto ;
+margin-top: 1rem;
 filter: brightness(0.95);
-width: 24rem;
+width: 90%;
 height: auto;
+justify-content: center;
+font-size: 1.2rem;
 }
 .stat{
  color: rgb(255, 255, 255);
